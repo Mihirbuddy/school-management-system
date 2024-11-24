@@ -1,5 +1,262 @@
 {
-  "node": {},
+  "node": {
+    "8917e456bdb6866f2d7d515e49311f082bcdbd18": {
+      "workers": {
+        "app/[[...sign-in]]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/teacher/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/student/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[[...sign-in]]/page": "action-browser",
+        "app/(dashboard)/teacher/page": "action-browser",
+        "app/(dashboard)/admin/page": "action-browser",
+        "app/(dashboard)/list/students/page": "action-browser",
+        "app/(dashboard)/student/page": "action-browser"
+      }
+    },
+    "07604c6d54461b476dd769959618f47ef365396e": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "0f376e97f1e1e85c894a6547da5d9abe51b1b0a3": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "13c94d213f22fa6ca49256790dd339af3be96cf3": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "4035a736815625bbf30512d2a7526a67464063aa": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "40c475c6c8fd8d57e47769ab2de1a4cdaffc5675": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "469a6ede10bb3167f91733b9cde55757d29820c6": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "4f79c376c4e131d0710c5dbd5858a7bba94b9dcb": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "5fecd94af5e71073179a4fd8c5c8fef3ca621555": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "6063c30d7148a61c8486d2cb83c7bd58f5377be6": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "608fc318382d8eb9e98e611f003e2d11a8c123c8": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "616222dfb921a60ea4ab38c45e882fb10661e64e": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "70436c0c1135f88df860df2475fcefdbebc08009": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "7811e3b21f1452dd4b4e6de1c8dee4ba77b10334": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "7875d4a73f8c823b12b2e70c959c4dc642fcdb82": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "860c1a2fed67a12e9a45aa9d7433ef432dd32cac": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "86b12b6d8734de032dfe610ab45dbaf9ab110c5b": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "9b5092151670ec350d89a54bd293f96c05913803": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "9d920eb7ac1ff3858fb06e83cf6f164d0bc1e412": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "a74a6d15d24b940435633dd76c15200521b5986d": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "ab8b0edd1cc74e1e91eb0827441a3d859eb12cae": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "ac4570dda0e8ee9aadc3efe9fe4d42ae984996d9": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "b9ec09004bff3a1e3cca1aec709d00b007a9b832": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "bed6853d61c059a66df541f65b9bb761dd25f1b8": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "c071325693f3650fc172fbaf2f7e36e511935c02": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "d358884e4b841363e5cd6ecc882afe32067e313d": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "daaa81027a829965b7e148970493ee57c83b91c6": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "dbfdea0222f5a01172389b3b28a8dfbfbde1bbf2": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "e1abb45e0c83f2506562e7770c010f179de6ece0": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "f1758640bea32d8dafb45f81b0ba2226d46d14cc": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    },
+    "f5a73ec7578bbec177d3faa2cca4c9d1a861f423": {
+      "workers": {
+        "app/(dashboard)/list/students/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fsrc%2Flib%2Factions.ts%22%2C%5B%22createClass%22%2C%22updateClass%22%2C%22%24%24ACTION_11%22%2C%22deleteTeacher%22%2C%22deleteSubject%22%2C%22createSubject%22%2C%22updateExam%22%2C%22createStudent%22%2C%22deleteStudent%22%2C%22%24%24ACTION_13%22%2C%22createTeacher%22%2C%22%24%24ACTION_6%22%2C%22updateSubject%22%2C%22%24%24ACTION_9%22%2C%22updateTeacher%22%2C%22%24%24ACTION_3%22%2C%22createExam%22%2C%22%24%24ACTION_1%22%2C%22deleteExam%22%2C%22%24%24ACTION_14%22%2C%22%24%24ACTION_12%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_7%22%2C%22updateStudent%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_4%22%2C%22%24%24ACTION_8%22%2C%22%24%24ACTION_10%22%2C%22deleteClass%22%5D%5D%2C%5B%22%2FUsers%2Fmihirpradhan%2FDesktop%2Fschool-management-system%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/list/students/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "UyipfVPW9CbUkhiMe13RBc50x8PLMnEPB5PcBC8rkVw="
+  "encryptionKey": "gUpEZVqSroLVCFWuBN17AFN6pu3fPdd+bIt6gMo2TZ8="
 }
