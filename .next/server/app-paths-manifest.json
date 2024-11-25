@@ -1,7 +1,4 @@
 {
   "/[[...sign-in]]/page": "app/[[...sign-in]]/page.js",
-  "/(dashboard)/list/students/[id]/page": "app/(dashboard)/list/students/[id]/page.js",
-  "/(dashboard)/student/page": "app/(dashboard)/student/page.js",
-  "/(dashboard)/admin/page": "app/(dashboard)/admin/page.js",
-  "/(dashboard)/teacher/page": "app/(dashboard)/teacher/page.js"
+  "/(dashboard)/student/page": "app/(dashboard)/student/page.js"
 }

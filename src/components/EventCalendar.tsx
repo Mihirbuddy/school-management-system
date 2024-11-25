@@ -24,9 +24,3 @@ const EventCalendar = () => {
 };
 
 export default EventCalendar;
-
-/*
-Value: This defines a more complex type. It can be either:
-A single ValuePiece (a Date or null).
-A tuple of two ValuePieces (like [startDate, endDate] for a range of dates).
-*/

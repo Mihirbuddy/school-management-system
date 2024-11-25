@@ -5,13 +5,12 @@ import { useForm } from "react-hook-form";
 import InputField from "../InputField";
 import Image from "next/image";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import { teacherSchema,TeacherSchema } from "@/lib/formValidationSchemas";
+import { teacherSchema, TeacherSchema } from "@/lib/formValidationSchemas";
 import { useFormState } from "react-dom";
 import { createTeacher, updateTeacher } from "@/lib/actions";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
-import { CldUploadWidget } from 'next-cloudinary';
-
+import { CldUploadWidget } from "next-cloudinary";
 
 const TeacherForm = ({
   type,
@@ -21,8 +20,8 @@ const TeacherForm = ({
 }: {
   type: "create" | "update";
   data?: any;
-  setOpen:Dispatch<SetStateAction<boolean>>;
-  relatedData?:any;
+  setOpen: Dispatch<SetStateAction<boolean>>;
+  relatedData?: any;
 }) => {
   const {
     register,
@@ -32,9 +31,7 @@ const TeacherForm = ({
     resolver: zodResolver(teacherSchema),
   });
 
-
-
-  const[img,setImg]=useState<any>()
+  const [img, setImg] = useState<any>();
 
   const [state, formAction] = useFormState(
     type === "create" ? createTeacher : updateTeacher,
@@ -44,27 +41,28 @@ const TeacherForm = ({
     }
   );
 
-
-
   const onSubmit = handleSubmit((data) => {
-    formAction({...data,img:img?.secure_url});
+    console.log(data);
+    formAction({ ...data, img: img?.secure_url });
   });
 
-  const router=useRouter();
+  const router = useRouter();
 
-  useEffect(()=>{
-    if(state.success){
-      toast(`Teacher has been ${type==="create"?"created":"updated"}!`);
+  useEffect(() => {
+    if (state.success) {
+      toast(`Teacher has been ${type === "create" ? "created" : "updated"}!`);
       setOpen(false);
       router.refresh();
     }
-  },[state]);
+  }, [state, router, type, setOpen]);
 
-  const {subjects} = relatedData;
+  const { subjects } = relatedData;
 
   return (
     <form className="flex flex-col gap-8" onSubmit={onSubmit}>
-      <h1 className="text-xl font-semibold">{type==="create" ? "create a new teacher":"Update the teacher"}</h1>
+      <h1 className="text-xl font-semibold">
+        {type === "create" ? "Create a new teacher" : "Update the teacher"}
+      </h1>
       <span className="text-xs text-gray-400 font-medium">
         Authentication Information
       </span>
@@ -139,15 +137,16 @@ const TeacherForm = ({
           error={errors.birthday}
           type="date"
         />
-        {data &&( <InputField
-          label="Id"
-          name="id"
-          defaultValue={data?.id}
-          register={register}
-          error={errors?.id}
-          hidden
-        />
-  )}
+        {data && (
+          <InputField
+            label="Id"
+            name="id"
+            defaultValue={data?.id}
+            register={register}
+            error={errors?.id}
+            hidden
+          />
+        )}
         <div className="flex flex-col gap-2 w-full md:w-1/4">
           <label className="text-xs text-gray-500">Sex</label>
           <select
@@ -172,34 +171,38 @@ const TeacherForm = ({
             {...register("subjects")}
             defaultValue={data?.subjects}
           >
-            {subjects.map((subject:{id:number;name:string})=>(
-               <option value={subject.id} key={subject.id}>{subject.name}</option>
+            {subjects.map((subject: { id: number; name: string }) => (
+              <option value={subject.id} key={subject.id}>
+                {subject.name}
+              </option>
             ))}
-            </select>
+          </select>
           {errors.subjects?.message && (
             <p className="text-xs text-red-400">
-              {errors.subjects?.message?.toString()}
+              {errors.subjects.message.toString()}
             </p>
           )}
         </div>
-          <CldUploadWidget uploadPreset="school" onSuccess={(result,{widget})=>{
-            setImg(result.info)
+        <CldUploadWidget
+          uploadPreset="school"
+          onSuccess={(result, { widget }) => {
+            setImg(result.info);
             widget.close();
-          }}>
-            {({ open }) => {
-              return (
-                <div
-            className="text-xs text-gray-500 flex items-center gap-2 cursor-pointer"
-           onClick={()=>open()}
-          >
-            <Image src="/upload.png" alt="" width={28} height={28} />
-            <span>Upload a photo</span>
-          </div>
-              );
-            }}
-          </CldUploadWidget>
+          }}
+        >
+          {({ open }) => {
+            return (
+              <div
+                className="text-xs text-gray-500 flex items-center gap-2 cursor-pointer"
+                onClick={() => open()}
+              >
+                <Image src="/upload.png" alt="" width={28} height={28} />
+                <span>Upload a photo</span>
+              </div>
+            );
+          }}
+        </CldUploadWidget>
       </div>
-
       {state.error && (
         <span className="text-red-500">Something went wrong!</span>
       )}

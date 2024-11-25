@@ -5,13 +5,14 @@ import Image from "next/image";
 const Navbar = async () => {
   const user = await currentUser();
 
-  // Extract user's full name or fallback to "John Doe"
-  const userName = user?.firstName && user?.lastName 
-    ? `${user.firstName} ${user.lastName}` 
-    : user?.firstName || "John Dofdsfsde";
+  // Debugging: Log the user object
 
-   
 
+  // Extract user's name with fallback
+  const userName = 
+    user?.firstName && user?.lastName
+      ? `${user.firstName} ${user.lastName}`
+      : user?.fullName || "John Doe";
 
   return (
     <div className="flex items-center justify-between p-4">
