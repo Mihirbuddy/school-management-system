@@ -1,15 +1,9 @@
 {
   "pages": {
-    "/(dashboard)/student/page": [
+    "/[[...sign-in]]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(dashboard)/student/page.css",
-      "static/chunks/app/(dashboard)/student/page.js"
-    ],
-    "/(dashboard)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/layout.js"
+      "static/chunks/app/[[...sign-in]]/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -17,16 +11,16 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/[[...sign-in]]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[[...sign-in]]/page.js"
-    ],
     "/(dashboard)/admin/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(dashboard)/admin/page.css",
       "static/chunks/app/(dashboard)/admin/page.js"
+    ],
+    "/(dashboard)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/layout.js"
     ],
     "/(dashboard)/list/students/page": [
       "static/chunks/webpack.js",
@@ -38,15 +32,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/list/loading.js"
     ],
-    "/(dashboard)/list/teachers/page": [
+    "/(dashboard)/list/students/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/list/teachers/page.js"
-    ],
-    "/(dashboard)/list/parents/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/list/parents/page.js"
+      "static/css/app/(dashboard)/list/students/[id]/page.css",
+      "static/chunks/app/(dashboard)/list/students/[id]/page.js"
     ]
   }
 }
