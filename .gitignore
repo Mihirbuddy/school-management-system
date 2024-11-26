@@ -7,3 +7,5 @@ postgre.tar
 .env
 
 docker-compose.yml
+
+.next
