@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "prisma generate && prisma db seed",
+    "postinstall": "prisma generate && [[ $SKIP_SEED != 'true' ]] && prisma db seed || true",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
