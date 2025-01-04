@@ -2,14 +2,15 @@
   "name": "lama-dev-next-dashboard",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "postinstall": "prisma generate && [[ $SKIP_SEED != 'true' ]] && prisma db seed || true",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "seed": "prisma db seed"
-  },
+ "scripts": {
+  "postinstall": "prisma generate && [[ $SKIP_SEED != 'true' ]] && prisma migrate dev --name init && prisma db seed || true",
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "seed": "prisma db seed"
+},
+
   "dependencies": {
     "@clerk/elements": "^0.16.1",
     "@clerk/nextjs": "^5.7.3",
